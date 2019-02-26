@@ -22,10 +22,6 @@
 	path = submodules/libtgvoip
 	url = https://github.com/grishka/libtgvoip
 	ignore = dirty
-[submodule "submodules/Sparkle"]
-	path = submodules/Sparkle
-	url = https://github.com/sparkle-project/Sparkle
-	ignore = dirty
 [submodule "submodules/Zip"]
 	path = submodules/Zip
 	url = https://github.com/overtake/Zip

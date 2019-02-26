@@ -690,8 +690,8 @@
 		D0BEB998216BD8A70055B718 /* EditImageControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB997216BD8A70055B718 /* EditImageControls.swift */; };
 		D0BEB99A216D10920055B718 /* MediaPreviewEditControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB999216D10920055B718 /* MediaPreviewEditControl.swift */; };
 		D0FFCEBE215A7CB700995AFE /* emoji14.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0FFCEBD215A7CB700995AFE /* emoji14.txt */; };
-		EB0C3F3E22253EAF00906A6E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0C3F3D22253EAF00906A6E /* Sparkle.framework */; };
-		EB0C3F3F22253EAF00906A6E /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = EB0C3F3D22253EAF00906A6E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EB0EA5552225A5530000168D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0EA5542225A5530000168D /* Sparkle.framework */; };
+		EB0EA5562225A5530000168D /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = EB0EA5542225A5530000168D /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -708,7 +708,7 @@
 				C224F2941E43CDC4002FF0B2 /* TGUIKit.framework in Copy Files */,
 				C224F2931E43CDBE002FF0B2 /* SwiftSignalKitMac.framework in Copy Files */,
 				C224F2921E43CD93002FF0B2 /* TelegramCoreMac.framework in Copy Files */,
-				EB0C3F3F22253EAF00906A6E /* Sparkle.framework in Copy Files */,
+				EB0EA5562225A5530000168D /* Sparkle.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1626,8 +1626,7 @@
 		D0BEB997216BD8A70055B718 /* EditImageControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageControls.swift; sourceTree = "<group>"; };
 		D0BEB999216D10920055B718 /* MediaPreviewEditControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPreviewEditControl.swift; sourceTree = "<group>"; };
 		D0FFCEBD215A7CB700995AFE /* emoji14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = emoji14.txt; sourceTree = "<group>"; };
-		EB0C3F3D22253EAF00906A6E /* Sparkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sparkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB0C3F4022253EBC00906A6E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../../Library/Developer/Xcode/DerivedData/Telegram-Mac-buuzjvosdvuomofcjvpkfrcqgmrs/Build/Products/DebugAppStore/Sparkle.framework"; sourceTree = "<group>"; };
+		EB0EA5542225A5530000168D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1652,6 +1651,7 @@
 				D0675D6B217E20B9004900A7 /* Zip.framework in Frameworks */,
 				9FFAE514205AB50C000C028E /* libz.tbd in Frameworks */,
 				9F13EE192100B6DA00562E53 /* Contacts.framework in Frameworks */,
+				EB0EA5552225A5530000168D /* Sparkle.framework in Frameworks */,
 				9FFAE50F205AB4A3000C028E /* libiconv.tbd in Frameworks */,
 				9FFAE50A205AA1FB000C028E /* libavutil.a in Frameworks */,
 				9FFAE50B205AA1FB000C028E /* libavcodec.a in Frameworks */,
@@ -1678,7 +1678,6 @@
 				C250B0351DB78A0A004E9FBE /* Quartz.framework in Frameworks */,
 				C250B0331DB788B3004E9FBE /* Foundation.framework in Frameworks */,
 				C234CA911D97E117003023F7 /* PostboxMac.framework in Frameworks */,
-				EB0C3F3E22253EAF00906A6E /* Sparkle.framework in Frameworks */,
 				C253A9671D92E3AF00CDC850 /* AVFoundation.framework in Frameworks */,
 				C2DF47BC1DE79574003AA6C0 /* libopus.a in Frameworks */,
 				C22E06261D7F16C000A11C88 /* TGUIKit.framework in Frameworks */,
@@ -3870,7 +3869,6 @@
 		D098C70C1D7E175A007784E4 = {
 			isa = PBXGroup;
 			children = (
-				EB0C3F3D22253EAF00906A6E /* Sparkle.framework */,
 				D098C7171D7E175A007784E4 /* Telegram-Mac */,
 				C232EA921E1D07E700C4D38C /* TelegramShare */,
 				D098C7161D7E175A007784E4 /* Products */,
@@ -3915,7 +3913,7 @@
 		D098C7311D7E18CB007784E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB0C3F4022253EBC00906A6E /* Sparkle.framework */,
+				EB0EA5542225A5530000168D /* Sparkle.framework */,
 				9F4EEF8321D4F59C002C3B33 /* Accelerate.framework */,
 				9F0AE6B62199A52600A8B53A /* UserNotifications.framework */,
 				D0675D6A217E20B9004900A7 /* Zip.framework */,
@@ -4932,6 +4930,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "BETA=1";
@@ -5063,6 +5062,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
@@ -5189,6 +5189,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "STABLE=1";
@@ -5313,6 +5314,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "APP_STORE=1";
@@ -5441,6 +5443,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "APP_STORE=1";
@@ -5623,6 +5626,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "STABLE=1";
@@ -5800,6 +5804,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = "BETA=1";
@@ -5857,6 +5862,7 @@
 					"$(PROJECT_DIR)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/HockeySDK-Mac",
+					"$(PROJECT_DIR)/Telegram-Mac/Frameworks",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";

@@ -5,9 +5,6 @@
       location = "group:submodules/Zip/Zip.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:submodules/Sparkle/Sparkle.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:submodules/libtgvoip/libtgvoip_osx.xcodeproj">
    </FileRef>
    <FileRef

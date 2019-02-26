@@ -343,7 +343,7 @@ class PCallSession {
             invalidateTimeout()
             stopAudio()
             break
-        case .terminated(let reason, let report):
+        case .terminated(_, let reason, let report):
             stopTransmission()
             invalidateTimeout()
             switch reason {

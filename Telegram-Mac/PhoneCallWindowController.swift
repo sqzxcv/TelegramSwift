@@ -183,7 +183,7 @@ private class PhoneCallWindowView : View {
             statusTextView.stringValue = tr(L10n.callStatusConnecting)
         case .ringing:
             statusTextView.stringValue = tr(L10n.callStatusCalling)
-        case .terminated(let error, _):
+        case .terminated(_, let error, _):
             switch error {
             case .ended(let reason):
                 
@@ -246,7 +246,7 @@ private class PhoneCallWindowView : View {
                 }
             })
             
-        case .terminated(let reason, _):
+        case .terminated(_, let reason, _):
             
             let recall:Bool
             
@@ -355,7 +355,7 @@ class PhoneCallWindowController {
                 switch state {
                     case .ringing:
                         self?.session.acceptCallSession()
-                case .terminated(let reason, _):
+                case .terminated(_, let reason, _):
                     
                     let recall:Bool
                     switch reason {
@@ -496,7 +496,7 @@ class PhoneCallWindowController {
             session.account.context.showCallHeader(with: session)
         case .dropping:
             break
-        case .terminated(let error, _):
+        case .terminated(_, let error, _):
             switch error {
             case .ended(let reason):
                 switch reason {

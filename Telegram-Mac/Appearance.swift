@@ -1097,7 +1097,7 @@ enum Wallpaper : Equatable, PostboxCoding {
             self = .builtin
         case let .color(color):
             self = .color(color)
-        case let .image(image):
+        case let .image(image, _):
             self = .image(image, blurred: false)
         case let .file(values):
             self = .file(slug: values.slug, file: values.file, blurred: false)
